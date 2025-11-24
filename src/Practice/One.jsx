@@ -15,7 +15,7 @@ const One = () => {
     }, [])
 
     return (
-        <div className='min-h-screen bg-gray-500 border-black p-20'>
+        <div className='min-h-screen  border-black p-20'>
             <div ref={boxRef} className="w-40 h-40 bg-yellow-500"></div>
         </div>
     )
